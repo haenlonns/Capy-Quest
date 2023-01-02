@@ -1,0 +1,1 @@
+# will hold data from game for save purposes (unsure if different file format would be more efficient)

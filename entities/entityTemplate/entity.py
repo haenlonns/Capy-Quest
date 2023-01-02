@@ -4,7 +4,8 @@
 
 class Entity:
 
-    def __init__(self, health, attack) -> None:
+    def __init__(self, health=1, attack=1, agility=1) -> None:
         
         self.health = health
         self.attack = attack
+        self.agility = agility
