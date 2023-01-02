@@ -2,7 +2,10 @@
 # 01/01/2023
 # Constructor for Spider Enemy
 
-from entity import Entity
+import sys
+sys.path.append(r"Boomers-Game\entities")
+
+from entityTemplate.entity import Entity
 import random
 
 
