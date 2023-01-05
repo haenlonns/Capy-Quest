@@ -4,8 +4,12 @@
 
 class Entity:
 
-    def __init__(self, health=1, attack=1, agility=1) -> None:
+    def __init__(self, name, maxhealth=1, attack=1, agility=1, critRate=0, critDMG=200) -> None:
         
-        self.health = health
+        self.name = name
+        self.maxhealth = maxhealth
+        self.health = maxhealth # Entities start off at full health
         self.attack = attack
         self.agility = agility
+        self.critRate = critRate
+        self.critDMG = critDMG
