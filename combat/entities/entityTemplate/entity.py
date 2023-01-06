@@ -10,6 +10,6 @@ class Entity:
         self.maxhealth = maxhealth
         self.health = maxhealth # Entities start off at full health
         self.attack = attack
-        self.agility = agility
+        self.agility = agility # 
         self.critRate = critRate
         self.critDMG = critDMG

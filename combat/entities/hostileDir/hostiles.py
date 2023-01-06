@@ -4,7 +4,7 @@
 
 # Import from entityTemplate module
 import sys
-sys.path.append(r"Boomers-Game\entities")
+sys.path.append(r"Boomers-Game\combat\entities")
 from entityTemplate.entity import Entity
 
 import random
