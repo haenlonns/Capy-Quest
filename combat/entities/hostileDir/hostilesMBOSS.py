@@ -16,11 +16,13 @@ import random
 class Boar:
     
     def __init__(self) -> None:
-        health = 150
+        health = 300
         attack = random.randint(100, 120)
-        agility = 50
+        agility = 10
+        critRate = random.randint(10, 15)
+        critDMG = random.randint(105, 110)
 
-        self.stats = Entity(health, attack, agility)
+        self.stats = Entity(health, attack, agility, critRate, critDMG)
 
 
 # Sophia Deng
@@ -31,7 +33,8 @@ class Wolf:
     def __init__(self) -> None:
         health = 200
         attack = random.randint(150, 160)
-        agility = 150
-        crit = random.randint(15, 20)
+        agility = 30
+        critRate = random.randint(15, 20)
+        critDMG = random.randint(120, 125)
 
-        self.stats = Entity(health, attack, agility, crit)
+        self.stats = Entity(health, attack, agility, critRate, critDMG)
